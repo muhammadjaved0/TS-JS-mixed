@@ -4,8 +4,8 @@ import Test from "./test";
 
 function App() {
   // const test = "typeScript";
-  const add = (a: any, b: any) => {
-    return a + b;
+  const add = (first: number, second: number) => {
+    return first + second;
   };
 
   const result = add(21, 2);
